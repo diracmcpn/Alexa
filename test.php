@@ -8,10 +8,11 @@
    <body>
 <?php
      
-     //First Example
+     //first example : get the rank of one domain
      echo "Alexa Traffic Rank : ".getAlexaRank("google.com");
      
-     //Second Example
+     /*second example : get the rank of several domains and 
+     sort them in ascending order in an array*/
      $listDomaine = array("google.com"=>0, "hyip.com"=>0, "siteduzero.com"=>0, "yahoo.com"=>0);
      foreach ($listDomaine as $domain => $rank)
      {
